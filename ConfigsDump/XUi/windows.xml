@@ -44,7 +44,7 @@
       </panel>
     </rect>
   </window>
-  <window name="windowTargetBar" controller="TargetBar" visibility="godmode">
+  <window name="windowTargetBar" controller="TargetBar" visibility="always">
     <!-- never,godmode,always -->
     <rect pos="-200,-85" width="400" height="36" visible="{isnotboss}">
       <sprite depth="1" name="border" color="0,0,0,100" type="sliced" width="400" globalopacity="false" />
